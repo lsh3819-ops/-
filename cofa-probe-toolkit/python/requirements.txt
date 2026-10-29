@@ -1,0 +1,6 @@
+# Python tools requested by the user; install in an isolated virtual environment.
+# Intentionally unpinned: this file is not a tested lock file.
+# After validating your environment, record reviewed exact versions.
+pandas
+duckdb
+pytest

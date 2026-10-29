@@ -1,0 +1,44 @@
+{
+  "status": "user-requested-setup",
+  "installed_inventory_verified": false,
+  "mcp_servers": [
+    {
+      "name": "sequential-thinking",
+      "config": "mcp/requested-tools.example.toml",
+      "connection_tested": false
+    },
+    {
+      "name": "context7",
+      "config": "mcp/requested-tools.example.toml",
+      "connection_tested": false
+    },
+    {
+      "name": "github",
+      "config": "mcp/requested-tools.example.toml",
+      "connection_tested": false
+    },
+    {
+      "name": "figma",
+      "config": "mcp/requested-tools.example.toml",
+      "connection_tested": false
+    }
+  ],
+  "python_packages": [
+    {
+      "name": "pandas",
+      "requirements": "python/requirements.txt",
+      "installation_tested": false
+    },
+    {
+      "name": "duckdb",
+      "requirements": "python/requirements.txt",
+      "installation_tested": false
+    },
+    {
+      "name": "pytest",
+      "requirements": "python/requirements.txt",
+      "installation_tested": false
+    }
+  ],
+  "auth_values_included": false
+}

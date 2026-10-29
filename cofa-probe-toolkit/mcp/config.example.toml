@@ -1,0 +1,14 @@
+# 신규 작성 예시. 실제 설치 설정의 복사본이 아닙니다.
+# 필요한 섹션만 로컬 Codex 설정에 병합하세요. 전체 파일을 교체하지 마세요.
+# 공개 문서 검색용이며 COFA 시험 데이터 서버가 아닙니다.
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+enabled = false
+
+# 인증이 필요한 사용자 서버의 형식 예시입니다.
+# example.invalid는 연결할 수 없는 자리표시자입니다.
+# 실제 주소는 로컬에서만 설정하고 검증 후 활성화하세요.
+[mcp_servers.practiceServer]
+url = "https://example.invalid/mcp"
+bearer_token_env_var = "COFA_PRACTICE_MCP_TOKEN"
+enabled = false

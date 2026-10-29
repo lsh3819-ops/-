@@ -1,0 +1,18 @@
+# Local-only material within this toolkit
+.env
+.env.*
+!.env.example
+*.local.*
+config.toml
+auth.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+local/
+private/
+data/
+outputs/
+logs/
+__pycache__/
