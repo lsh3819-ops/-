@@ -32,3 +32,15 @@ MCP 없이도 이 스킬의 점검 절차를 사용할 수 있습니다. OpenAI 
 - [Skills 작성 및 검색 경로](https://learn.chatgpt.com/docs/build-skills)
 - [Codex MCP 설정](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)
 - [OpenAI Docs MCP](https://developers.openai.com/learn/docs-mcp)
+
+## 추가 요청한 7종 도구
+
+**Sequential Thinking MCP · Context7 MCP · GitHub MCP · Figma MCP · pandas · DuckDB · pytest**를 모두 포함했습니다.
+
+- [도구별 설치·인증·사용 안내](docs/REQUESTED-TOOLS.md)
+- [MCP 4종 설정](mcp/requested-tools.example.toml)
+- [Python 3종 설치 목록](python/requirements.txt)
+- [Python 데이터 작업 스킬](skills/python-data-workflow/SKILL.md)
+- [요청 도구 목록](requested-tools.json)
+
+위 파일은 재설치 가능한 구성을 보관하며 패키지 실행 파일이나 개인 인증정보를 포함하지 않습니다. 기존 빈 inventory 양식은 전체 설치 목록을 추후 조사하기 위한 용도로 유지합니다.

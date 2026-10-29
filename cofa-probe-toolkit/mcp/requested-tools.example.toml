@@ -1,0 +1,26 @@
+# Requested MCP servers. Merge selected sections into local Codex config.
+# This is not an export of installed credentials or settings.
+# Enable only after local setup; do not duplicate plugin-managed servers.
+
+[mcp_servers.sequential-thinking]
+command = "cmd"
+args = ["/c", "npx", "-y", "@modelcontextprotocol/server-sequential-thinking"]
+enabled = false
+# macOS/Linux: command = "npx"; args = ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+# For reproducibility, replace the package spec with a reviewed exact version.
+[mcp_servers.sequential-thinking.env]
+DISABLE_THOUGHT_LOGGING = "true"
+
+[mcp_servers.context7]
+url = "https://mcp.context7.com/mcp"
+bearer_token_env_var = "CONTEXT7_API_KEY"
+enabled = false
+
+[mcp_servers.github]
+url = "https://api.githubcopilot.com/mcp/"
+bearer_token_env_var = "GITHUB_MCP_TOKEN"
+enabled = false
+
+[mcp_servers.figma]
+url = "https://mcp.figma.com/mcp"
+enabled = false
